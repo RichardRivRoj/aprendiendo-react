@@ -10,20 +10,17 @@ export function App () {
     return (
         <>
             <section className="flex flex-col gap-2">
-                <TwitterFollowCard
-                isFollowing={true} 
+                <TwitterFollowCard 
                 userName="midudev">
                     Richard Rivera
                 </TwitterFollowCard>
                 
                 <TwitterFollowCard 
-                isFollowing={false} 
                 userName="pheralb">
                     Peralti Gomez
                 </TwitterFollowCard>
                 
                 <TwitterFollowCard 
-                isFollowing 
                 userName="vxnder">
                     Jose Rojas
                 </TwitterFollowCard>
